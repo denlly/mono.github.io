@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 title: mono 技术私房菜
 email: fan91163@gmail.com
 description: mono技术私房菜，Node & Deno 全栈
@@ -44,3 +45,16 @@ facebook:
   #app_id: 1798910940422432 # cayman-blog
   #authors: lorepirri
 #  admins:
+=======
+title: mono 技术私房菜
+email: fan91163@gmail.com
+description: Cayman is a clean, responsive theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+  description: 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  denlly
+theme: jekyll-theme-cayman
+>>>>>>> 2b4fa4c7c43d1e0c40cf2a235a2996f189814397

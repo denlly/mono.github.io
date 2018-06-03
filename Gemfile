@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+<<<<<<< HEAD
 
 # gemspec
 # Hello! This is where you manage which Jekyll version is used to run.
@@ -30,3 +31,7 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "jekyll-theme-cayman-blog"
+=======
+
+gemspec
+>>>>>>> 2b4fa4c7c43d1e0c40cf2a235a2996f189814397

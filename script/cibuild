@@ -3,4 +3,11 @@
 set -e
 
 bundle exec jekyll build
+<<<<<<< HEAD
 gem build jekyll-theme-cayman-blog.gemspec
+=======
+bundle exec htmlproofer ./_site --check-html --check-sri --disable-external
+bundle exec rubocop -D
+bundle exec script/validate-html
+gem build jekyll-theme-cayman.gemspec
+>>>>>>> 2b4fa4c7c43d1e0c40cf2a235a2996f189814397
