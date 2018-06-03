@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 
+=======
+<<<<<<< HEAD
+>>>>>>> master
 # The Cayman Blog theme
 
 [![Build Status](https://travis-ci.org/lorepirri/cayman-blog.svg?branch=master)](https://travis-ci.org/lorepirri/cayman-blog) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman-blog.svg)](https://badge.fury.io/rb/jekyll-theme-cayman-blog)
@@ -79,7 +83,10 @@ This method is preferred for existing _Jekyll blogs_, as well as newly created o
 6. Modify `_config.yml`, `about.md`, `contact.md` for your project
 7. [Customize the theme](customizing)
 =======
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> master
 # The Cayman theme
 
 [![Build Status](https://travis-ci.org/pages-themes/cayman.svg?branch=master)](https://travis-ci.org/pages-themes/cayman) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman.svg)](https://badge.fury.io/rb/jekyll-theme-cayman)
@@ -104,12 +111,17 @@ To use the Cayman theme:
     gem "github-pages", group: :jekyll_plugins
 <<<<<<< Updated upstream
     ```
+>>>>>>> 2b4fa4c7c43d1e0c40cf2a235a2996f189814397
 
 ## Customizing
 
 ### Configuration variables
 
+<<<<<<< HEAD
+Cayman Blog will respect the following variables, if set in your site's `_config.yml`:
+=======
 Cayman will respect the following variables, if set in your site's `_config.yml`:
+>>>>>>> 2b4fa4c7c43d1e0c40cf2a235a2996f189814397
 
 ```yml
 title: [The title of your site]
@@ -123,6 +135,58 @@ show_downloads: ["true" or "false" to indicate whether to provide a download URL
 google_analytics: [Your Google Analytics tracking ID]
 ```
 
+<<<<<<< HEAD
+### RSS feeds
+
+To enable RSS feeds and also make visible an RSS feeds button in the footer, the [Jekyll Feed plugin](https://github.com/jekyll/jekyll-feed) must be installed.
+
+Add this line to your site's Gemfile:
+
+```ruby
+gem 'jekyll-feed'
+```
+
+And then add this line to your site's `_config.yml`:
+
+```yml
+gems:
+  - jekyll-feed
+```
+
+For more information about configuring this plugin, see the official [Jekyll Feed plugin](https://github.com/jekyll/jekyll-feed) page.
+
+### SEO tags
+
+Cayman Blog includes simple SEO tags from [jekyll-social-metatags](https://github.com/lorepirri/jekyll-social-metatags). Have a look at the page for its usage.
+
+The usage is compatible with the plugin [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag), which provides a battle-tested template of crowdsourced best-practices.
+
+To switch to a better SEO tags however, one should install [Jekyll Feed plugin](https://github.com/jekyll/jekyll-feed):
+
+1. Add this line to your site's Gemfile:
+
+    ```ruby
+    gem 'jekyll-seo-tag'
+    ```
+
+2. And then add this line to your site's `_config.yml`:
+
+    ```yml
+    gems:
+      - jekyll-seo-tag
+    ```
+
+3. Replace with the following, the `<!-- jekyll-seo-tag -->` comment in your site's `default.html`:
+
+      ```liquid
+      {% seo %}
+      ```
+
+For more information about configuring this plugin, see the official [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag) page.
+
+
+=======
+>>>>>>> 2b4fa4c7c43d1e0c40cf2a235a2996f189814397
 ### Stylesheet
 
 If you'd like to add your own custom styles:
@@ -137,17 +201,47 @@ If you'd like to add your own custom styles:
     ```
 3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
 
+<<<<<<< HEAD
+=======
 *Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
 
+>>>>>>> 2b4fa4c7c43d1e0c40cf2a235a2996f189814397
 ### Layouts
 
 If you'd like to change the theme's HTML layout:
 
+<<<<<<< HEAD
+1. [Copy the original template](https://github.com/lorepirri/cayman-blog/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
+=======
 1. [Copy the original template](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
+>>>>>>> 2b4fa4c7c43d1e0c40cf2a235a2996f189814397
 2. Create a file called `/_layouts/default.html` in your site
 3. Paste the default layout content copied in the first step
 4. Customize the layout as you'd like
 
+<<<<<<< HEAD
+### Sass variables
+
+If you'd like to change the theme's [Sass variables](https://github.com/lorepirri/cayman-blog/blob/master/_sass/variables.scss), set new values before the `@import` line in your stylesheet:
+
+```scss
+$section-headings-color: #0086b3;
+
+@import "{{ site.theme }}";
+```
+
+## Roadmap
+
+See the [open issues](https://github.com/lorepirri/cayman-blog/issues) for a list of proposed features (and known issues).
+
+## Project philosophy
+
+The Cayman Blog theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
+
+## Contributing
+
+Interested in contributing to Cayman Blog? We'd love your help. Cayman Blog is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](CONTRIBUTING.md) for instructions on how to contribute.
+=======
 ### Overriding GitHub-generated URLs
 
 Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
@@ -176,15 +270,23 @@ The Cayman theme is intended to make it quick and easy for GitHub Pages users to
 ## Contributing
 
 Interested in contributing to Cayman? We'd love your help. Cayman is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
+>>>>>>> 2b4fa4c7c43d1e0c40cf2a235a2996f189814397
 
 ### Previewing the theme locally
 
 If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
+<<<<<<< HEAD
+1. Clone down the theme's repository (`git clone https://github.com/lorepirri/cayman-blog`)
+2. `cd` into the theme's directory
+3. Run `script/bootstrap` to install the necessary dependencies
+4. Run `script/server` to start the preview server
+=======
 1. Clone down the theme's repository (`git clone https://github.com/pages-themes/cayman`)
 2. `cd` into the theme's directory
 3. Run `script/bootstrap` to install the necessary dependencies
 4. Run `bundle exec jekyll serve` to start the preview server
+>>>>>>> 2b4fa4c7c43d1e0c40cf2a235a2996f189814397
 5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
 
 ### Running tests
