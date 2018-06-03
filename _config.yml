@@ -1,16 +1,16 @@
 title: mono 技术私房菜
 email: fan91163@gmail.com
-description: mono技术私房菜，做自己的全栈技术
+description: mono技术私房菜，Node & Deno 全栈
 show_downloads: true
 google_analytics:
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "blog.monocat.cn" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Denlly Fun
 github_username:  denlly
 
 # Build settings
 markdown: kramdown
-theme: #jekyll-theme-cayman
+theme: jekyll-theme-cayman-blog
 plugins:
   - jekyll-feed
 
