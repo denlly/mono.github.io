@@ -5,7 +5,7 @@ show_downloads: true
 google_analytics: ""
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for y our site, e.g. http://example.com
 twitter_username: "jekyllrb"
 github_username:  "denlly"
 theme: "jekyll-theme-cayman"
